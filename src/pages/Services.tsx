@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -9,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { 
   Grid3X3, 
   Square, 
-  Door, 
+  DoorOpen, 
   Wrench, 
   CheckCircle, 
   Clock,
@@ -18,7 +17,8 @@ import {
   Lightbulb,
   Shield,
   Palette,
-  Settings
+  Settings,
+  Phone
 } from 'lucide-react';
 
 const Services = () => {
@@ -87,7 +87,7 @@ const Services = () => {
     },
     {
       id: 'wall-panels',
-      icon: Door,
+      icon: DoorOpen,
       title: 'Wall Panels',
       subtitle: 'Stunning textures and finishes',
       description: 'Wood cladding and aluminum composite panels that create striking visual impact and lasting beauty.',

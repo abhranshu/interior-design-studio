@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, Grid3X3, Square, Door, Wrench } from 'lucide-react';
+import { ArrowRight, Grid3X3, Square, DoorOpen, Wrench } from 'lucide-react';
 
 const ServicesOverview = () => {
   const services = [
@@ -24,7 +23,7 @@ const ServicesOverview = () => {
       link: "/services#windows-doors"
     },
     {
-      icon: Door,
+      icon: DoorOpen,
       title: "Wall Panels",
       description: "Wood cladding, aluminum composite panels, and decorative wall treatments for stunning interiors.",
       features: ["Moisture Resistant", "Easy Maintenance", "Various Textures", "Eco-Friendly Options"],
