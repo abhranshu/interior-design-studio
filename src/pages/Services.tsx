@@ -183,10 +183,10 @@ const Services = () => {
               <button
                 key={service.id}
                 onClick={() => setSelectedService(service.id)}
-                className={`p-4 rounded-lg border-2 transition-all duration-200 ${
+                className={`p-4 rounded-lg border-2 transition-all duration-200 shadow-sm hover:shadow-lg ${
                   selectedService === service.id
-                    ? 'border-amber-600 bg-amber-50 shadow-lg'
-                    : 'border-gray-200 hover:border-amber-300 hover:bg-gray-50'
+                    ? 'border-amber-600 bg-amber-50 shadow-lg text-amber-900'
+                    : 'border-gray-300 bg-white hover:border-amber-400 hover:bg-amber-50 text-gray-700 hover:text-amber-800'
                 }`}
               >
                 <service.icon className={`w-8 h-8 mx-auto mb-2 ${
@@ -223,14 +223,14 @@ const Services = () => {
 
               {/* Quick Info */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg">
+                <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <Clock className="w-6 h-6 text-amber-600" />
                   <div>
                     <div className="font-semibold text-gray-900">Timeline</div>
                     <div className="text-gray-600">{currentService.timeline}</div>
                   </div>
                 </div>
-                <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg">
+                <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <IndianRupee className="w-6 h-6 text-amber-600" />
                   <div>
                     <div className="font-semibold text-gray-900">Price Range</div>
@@ -257,7 +257,7 @@ const Services = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Applications</h3>
                 <div className="flex flex-wrap gap-2">
                   {currentService.applications.map((app, index) => (
-                    <Badge key={index} variant="secondary" className="bg-amber-100 text-amber-800">
+                    <Badge key={index} variant="secondary" className="bg-amber-100 text-amber-800 border border-amber-200">
                       {app}
                     </Badge>
                   ))}
@@ -265,11 +265,11 @@ const Services = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-amber-600 hover:bg-amber-700 flex-1">
+                <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white shadow-md hover:shadow-lg flex-1">
                   Get Quote for {currentService.title}
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
-                <Button size="lg" variant="outline" className="flex-1">
+                <Button size="lg" variant="outline" className="flex-1 border-amber-600 text-amber-600 hover:bg-amber-50">
                   View Portfolio
                 </Button>
               </div>
@@ -278,7 +278,7 @@ const Services = () => {
             {/* Visual Content */}
             <div>
               {/* Main Image */}
-              <div className="relative mb-6 rounded-xl overflow-hidden shadow-xl">
+              <div className="relative mb-6 rounded-xl overflow-hidden shadow-xl border border-gray-200">
                 <img
                   src={currentService.image}
                   alt={currentService.title}
@@ -294,7 +294,7 @@ const Services = () => {
               {/* Gallery */}
               <div className="grid grid-cols-3 gap-3 mb-8">
                 {currentService.gallery.map((image, index) => (
-                  <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                  <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow border border-gray-200">
                     <img
                       src={image}
                       alt={`${currentService.title} ${index + 1}`}
@@ -305,7 +305,7 @@ const Services = () => {
               </div>
 
               {/* Materials */}
-              <Card>
+              <Card className="border-gray-200 shadow-sm">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Palette className="w-5 h-5 mr-2 text-amber-600" />
@@ -315,7 +315,7 @@ const Services = () => {
                 <CardContent>
                   <div className="space-y-4">
                     {currentService.materials.map((material, index) => (
-                      <div key={index} className="border-l-4 border-amber-200 pl-4">
+                      <div key={index} className="border-l-4 border-amber-200 pl-4 bg-amber-50 py-2 rounded-r-md">
                         <div className="font-semibold text-gray-900">{material.name}</div>
                         <div className="text-sm text-gray-600">{material.description}</div>
                       </div>
@@ -338,7 +338,7 @@ const Services = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service) => (
-              <Card key={service.id} className="hover:shadow-lg transition-shadow">
+              <Card key={service.id} className="hover:shadow-lg transition-shadow border-gray-200">
                 <CardContent className="p-6 text-center">
                   <service.icon className="w-12 h-12 text-amber-600 mx-auto mb-4" />
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.title}</h3>
@@ -356,7 +356,7 @@ const Services = () => {
                   <Button 
                     size="sm" 
                     variant="outline" 
-                    className="w-full"
+                    className="w-full border-amber-600 text-amber-600 hover:bg-amber-50"
                     onClick={() => setSelectedService(service.id)}
                   >
                     View Details
@@ -376,11 +376,11 @@ const Services = () => {
             Contact us today for a free consultation and personalized quote for your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-amber-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-amber-600 hover:bg-gray-100 shadow-md hover:shadow-lg">
               <Phone className="w-5 h-5 mr-2" />
               Call (555) 123-4567
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-amber-600">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-amber-600 shadow-md hover:shadow-lg">
               Schedule Consultation
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
