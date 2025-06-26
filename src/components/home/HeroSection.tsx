@@ -116,7 +116,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button
               size="lg"
-              className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 border-2 border-amber-500"
+              className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg font-semibold"
               asChild
             >
               <Link to="/contact">Get Free Quote</Link>
@@ -124,7 +124,7 @@ const HeroSection = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 bg-black bg-opacity-20 hover:bg-opacity-100"
+              className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold"
               asChild
             >
               <Link to="/portfolio">{slides[currentSlide].cta}</Link>
