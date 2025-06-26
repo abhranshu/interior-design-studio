@@ -10,63 +10,63 @@ const TestimonialsCarousel = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Suresh Kumar",
       role: "Homeowner",
-      location: "Hillcrest Estates",
+      location: " Gaya",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b77c?auto=format&fit=crop&w=150&q=80",
+      avatar: "suresh.jpg",
       text: "Premium Interiors transformed our home completely. The attention to detail in their wood and aluminum work is exceptional. The team was professional, punctual, and the quality exceeded our expectations. Our friends can't stop complimenting the beautiful ceiling design!",
       project: "Residential Ceiling & Wall Panels"
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Business Owner",
-      location: "Downtown Business Center",
+      name: "Sunil Kumar",
+      role: "Teacher",
+      location: "Bihar Sharif",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+      avatar: "sunil.jpg",
       text: "We hired Premium Interiors for our office renovation and they delivered beyond our imagination. The modern aluminum ceiling with integrated lighting created exactly the professional atmosphere we wanted. The project was completed on time and within budget.",
       project: "Commercial Office Renovation"
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "Interior Designer",
-      location: "Design District",
+      name: "Nand Gopal Sharma",
+      role: "Techinician",
+      location: "Bhubaneshwar",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+      avatar: "nand.jpg",
       text: "As an interior designer, I've worked with many contractors, but Premium Interiors stands out for their craftsmanship and reliability. Their custom millwork is absolutely stunning, and they always deliver on their promises. I recommend them to all my clients.",
       project: "Custom Millwork & Panels"
     },
     {
       id: 4,
-      name: "David Thompson",
-      role: "Restaurant Owner",
-      location: "Gourmet District",
+      name: "Antariksh Sudarshan",
+      role: "Mechanical Engineer",
+      location: "Gujarat",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      avatar: "sudarsan.jpg",
       text: "The restaurant renovation by Premium Interiors has completely changed our business. The warm wood panels combined with modern aluminum accents created the perfect ambiance. Our customers love the new atmosphere, and bookings have increased significantly!",
       project: "Restaurant Interior Design"
     },
     {
       id: 5,
-      name: "Lisa Park",
-      role: "Property Manager",
-      location: "Corporate Plaza",
+      name: "Suryanshu Kumar",
+      role: "Joint Commissioner of Income Tax",
+      location: "Mumbai",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+      avatar: "IMG_20221206_235714.jpg",
       text: "Managing multiple properties, I need contractors I can trust. Premium Interiors has consistently delivered excellent work across all our locations. Their expertise in both aluminum and wood solutions makes them our go-to choice for any interior project.",
       project: "Multi-Property Renovation"
     },
     {
       id: 6,
-      name: "James Wilson",
-      role: "Architect",
-      location: "Design Studio",
+      name: "Sanjeev Kumar",
+      role: "Secretary",
+      location: "Bihar",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80",
+      avatar: "guddan.jpg",
       text: "Premium Interiors brings my architectural visions to life with precision and artistry. Their technical expertise and creative problem-solving make them an invaluable partner. The quality of their work consistently impresses both me and my clients.",
-      project: "Architectural Collaboration"
+      project: "Home Renovation and Design"
     }
   ];
 

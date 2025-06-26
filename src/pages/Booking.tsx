@@ -296,11 +296,11 @@ const Booking = () => {
               <CardContent className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-amber-600" />
-                  <span className="text-gray-700">(555) 123-4567</span>
+                  <span className="text-gray-700">+91 9334298088</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-amber-600" />
-                  <span className="text-gray-700">info@akashinteriors.com</span>
+                  <span className="text-gray-700">info.@akashinteriors.com</span>
                 </div>
                 <div className="mt-4 p-3 bg-amber-50 rounded-lg">
                   <p className="text-sm text-amber-800">

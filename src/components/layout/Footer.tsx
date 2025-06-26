@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
@@ -12,10 +11,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-amber-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">PI</span>
+                <span className="text-white font-bold text-lg">AI</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Premium Interiors</h3>
+                <h3 className="text-xl font-bold text-white">Akash Interior</h3>
                 <p className="text-sm text-gray-400">Aluminum & Wood Specialists</p>
               </div>
             </div>
@@ -24,13 +23,13 @@ const Footer = () => {
               Quality craftsmanship, innovative designs, and exceptional service.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors">
+              <a href="https://www.facebook.com/" className="text-gray-400 hover:text-amber-400 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors">
+              <a href="https://www.instagram.com/" className="text-gray-400 hover:text-amber-400 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors">
+              <a href="https://www.linkedin.com/public-profile/settings" className="text-gray-400 hover:text-amber-400 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -69,13 +68,12 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="text-amber-400 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-400">123 Design Street</p>
-                  <p className="text-gray-400">Craftsman City, CC 12345</p>
+                  <p className="text-gray-400">Lohanipur Kadam Kuan Patna -03 , Bihar</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={20} className="text-amber-400 flex-shrink-0" />
-                <p className="text-gray-400">(555) 123-4567</p>
+                <p className="text-gray-400">(+ 91 9334298088 )</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={20} className="text-amber-400 flex-shrink-0" />

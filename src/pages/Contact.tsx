@@ -19,19 +19,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: "(555) 123-4567",
+      details: "+91 9334298088",
       description: "Call us for immediate assistance"
     },
     {
       icon: Mail,
       title: "Email",
-      details: "info@akashinteriors.com",
+      details: "satyendra081979@gmail.com",
       description: "Send us your queries anytime"
     },
     {
       icon: MapPin,
       title: "Address",
-      details: "123 Interior Design Street, Design City, DC 12345",
+      details: "Akash Interior Lohanipur Kadam Kuan Patna - 03, Bihar 800003",
       description: "Visit our showroom and workshop"
     },
     {

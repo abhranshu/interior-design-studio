@@ -41,7 +41,7 @@ const About = () => {
                 About Akash Interiors
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                With over 15 years of expertise in aluminum and wood interiors, we transform spaces into stunning environments that reflect your style and needs.
+                With over 20 years of expertise in aluminum and wood interiors, we transform spaces into stunning environments that reflect your style and needs.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const About = () => {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Founded in 2008, Akash Interiors began as a small family business with a passion for creating beautiful, functional spaces. What started as a local aluminum work shop has grown into a comprehensive interior solutions company.
+                 Akash Interiors was founded in 2002 by our respected founder, Satyendra Kumar, who started with a vision to create beautiful, functional spaces. The company began its journey as a modest family-run aluminum workshop and has since transformed into a full-service interior design company.
                 </p>
                 <p className="text-gray-600 mb-4">
                   Over the years, we've expanded our expertise to include premium wood work, ceiling designs, custom millwork, and complete interior transformations. Our commitment to quality and customer satisfaction has earned us the trust of hundreds of satisfied clients.
@@ -65,7 +65,7 @@ const About = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80" 
+                  src="dsat.jpg" 
                   alt="Our workshop" 
                   className="rounded-lg shadow-lg"
                 />
