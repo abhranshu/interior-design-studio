@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -22,7 +23,17 @@ import {
 } from 'lucide-react';
 
 const Services = () => {
+  const [searchParams] = useSearchParams();
+  const serviceParam = searchParams.get('service');
   const [selectedService, setSelectedService] = useState('ceiling');
+
+  useEffect(() => {
+    if (serviceParam) {
+      setSelectedService(serviceParam);
+    }
+    // Scroll to top when component mounts or service changes
+    window.scrollTo(0, 0);
+  }, [serviceParam]);
 
   const services = [
     {

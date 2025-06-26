@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -12,7 +13,7 @@ const ServicesOverview = () => {
       description: "Drop ceilings, acoustic panels, decorative designs, and suspended ceiling systems for modern spaces.",
       features: ["Acoustic Enhancement", "LED Integration", "Custom Designs", "Fire-Rated Options"],
       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
-      link: "/services#ceiling"
+      serviceId: "ceiling"
     },
     {
       icon: Square,
@@ -20,7 +21,7 @@ const ServicesOverview = () => {
       description: "Premium aluminum frames, wooden doors, and custom window solutions with superior craftsmanship.",
       features: ["Energy Efficient", "Security Features", "Custom Sizes", "Weather Resistant"],
       image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80",
-      link: "/services#windows-doors"
+      serviceId: "windows-doors"
     },
     {
       icon: DoorOpen,
@@ -28,7 +29,7 @@ const ServicesOverview = () => {
       description: "Wood cladding, aluminum composite panels, and decorative wall treatments for stunning interiors.",
       features: ["Moisture Resistant", "Easy Maintenance", "Various Textures", "Eco-Friendly Options"],
       image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",
-      link: "/services#wall-panels"
+      serviceId: "wall-panels"
     },
     {
       icon: Wrench,
@@ -36,7 +37,7 @@ const ServicesOverview = () => {
       description: "Built-in storage, decorative elements, and bespoke furniture crafted to your specifications.",
       features: ["Tailored Designs", "Quality Materials", "Expert Installation", "Lifetime Warranty"],
       image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=600&q=80",
-      link: "/services#custom-millwork"
+      serviceId: "custom-millwork"
     }
   ];
 
@@ -87,7 +88,7 @@ const ServicesOverview = () => {
                   className="group-hover:bg-amber-600 group-hover:text-white group-hover:border-amber-600 transition-colors"
                   asChild
                 >
-                  <Link to={service.link} className="flex items-center">
+                  <Link to={`/services?service=${service.serviceId}`} className="flex items-center">
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
