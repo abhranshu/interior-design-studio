@@ -13,7 +13,7 @@ import {
   Wrench, 
   CheckCircle, 
   Clock,
-  DollarSign,
+  IndianRupee,
   ArrowRight,
   Lightbulb,
   Shield,
@@ -63,7 +63,7 @@ const Services = () => {
         { name: 'Decorative Elements', description: 'Custom design features' }
       ],
       timeline: '1-3 weeks',
-      priceRange: '$15-35 per sq ft',
+      priceRange: '₹15-35 per sq ft',
       applications: ['Offices', 'Retail Spaces', 'Healthcare', 'Educational', 'Residential']
     },
     {
@@ -93,7 +93,7 @@ const Services = () => {
         { name: 'Hardware', description: 'Premium locks and handles' }
       ],
       timeline: '2-4 weeks',
-      priceRange: '$400-1,200 per unit',
+      priceRange: '₹400-1,200 per unit',
       applications: ['Residential', 'Commercial', 'Industrial', 'Hospitality', 'Healthcare']
     },
     {
@@ -123,7 +123,7 @@ const Services = () => {
         { name: 'Decorative Finishes', description: 'Custom colors and textures' }
       ],
       timeline: '1-2 weeks',
-      priceRange: '$25-60 per sq ft',
+      priceRange: '₹25-60 per sq ft',
       applications: ['Lobbies', 'Restaurants', 'Retail', 'Offices', 'Homes']
     },
     {
@@ -153,7 +153,7 @@ const Services = () => {
         { name: 'Finishes', description: 'Stains, paints, protective coatings' }
       ],
       timeline: '3-6 weeks',
-      priceRange: '$100-300 per linear ft',
+      priceRange: '₹100-300 per linear ft',
       applications: ['Built-ins', 'Closets', 'Entertainment Centers', 'Offices', 'Kitchens']
     }
   ];
@@ -231,7 +231,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg">
-                  <DollarSign className="w-6 h-6 text-amber-600" />
+                  <IndianRupee className="w-6 h-6 text-amber-600" />
                   <div>
                     <div className="font-semibold text-gray-900">Price Range</div>
                     <div className="text-gray-600">{currentService.priceRange}</div>
