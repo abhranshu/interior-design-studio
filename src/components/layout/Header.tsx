@@ -31,7 +31,7 @@ const Header = () => {
               </div>
               <div className="flex items-center space-x-1 text-amber-700">
                 <Mail size={14} />
-                <span>info@premiuminteriors.com</span>
+                <span>info@akashinteriors.com</span>
               </div>
             </div>
             <span className="text-amber-700 font-medium">15+ Years of Excellence</span>
@@ -45,10 +45,10 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-amber-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">PI</span>
+                <span className="text-white font-bold text-lg">AI</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Premium Interiors</h1>
+                <h1 className="text-xl font-bold text-gray-900">Akash Interiors</h1>
                 <p className="text-xs text-gray-600">Aluminum & Wood Specialists</p>
               </div>
             </Link>
