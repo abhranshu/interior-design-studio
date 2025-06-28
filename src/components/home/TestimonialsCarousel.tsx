@@ -51,7 +51,7 @@ const TestimonialsCarousel = () => {
     {
       id: 5,
       name: "Suryanshu Kumar",
-      role: "Joint Commissioner of Income Tax",
+      role: "Income Tax Officer",
       location: "Mumbai",
       rating: 5,
       avatar: "https://ik.imagekit.io/ssinc0lob/suryanshu.jpg",
