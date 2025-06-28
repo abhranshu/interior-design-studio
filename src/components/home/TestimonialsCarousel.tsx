@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -13,7 +14,7 @@ const TestimonialsCarousel = () => {
       role: "Homeowner",
       location: " Gaya",
       rating: 5,
-      avatar: "/suresh.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/suresh.jpg?updatedAt=1751135168368",
       text: "Premium Interiors transformed our home completely. The attention to detail in their wood and aluminum work is exceptional. The team was professional, punctual, and the quality exceeded our expectations. Our friends can't stop complimenting the beautiful ceiling design!",
       project: "Residential Ceiling & Wall Panels"
     },
@@ -23,7 +24,7 @@ const TestimonialsCarousel = () => {
       role: "Teacher",
       location: "Bihar Sharif",
       rating: 5,
-      avatar: "/sunil.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/sunil.jpg?updatedAt=1751135168393",
       text: "We hired Premium Interiors for our office renovation and they delivered beyond our imagination. The modern aluminum ceiling with integrated lighting created exactly the professional atmosphere we wanted. The project was completed on time and within budget.",
       project: "Commercial Office Renovation"
     },
@@ -33,7 +34,7 @@ const TestimonialsCarousel = () => {
       role: "Techinician",
       location: "Bhubaneshwar",
       rating: 5,
-      avatar: "/nandgopal.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/sudarsan.jpg",
       text: "As an interior designer, I've worked with many contractors, but Premium Interiors stands out for their craftsmanship and reliability. Their custom millwork is absolutely stunning, and they always deliver on their promises. I recommend them to all my clients.",
       project: "Custom Millwork & Panels"
     },
@@ -43,7 +44,7 @@ const TestimonialsCarousel = () => {
       role: "Mechanical Engineer",
       location: "Gujarat",
       rating: 5,
-      avatar: "/sudarsan.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/sudarsan.jpg",
       text: "The restaurant renovation by Premium Interiors has completely changed our business. The warm wood panels combined with modern aluminum accents created the perfect ambiance. Our customers love the new atmosphere, and bookings have increased significantly!",
       project: "Restaurant Interior Design"
     },
@@ -53,7 +54,7 @@ const TestimonialsCarousel = () => {
       role: "Joint Commissioner of Income Tax",
       location: "Mumbai",
       rating: 5,
-      avatar: "/suryanshu.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/suryanshu.jpg",
       text: "Managing multiple properties, I need contractors I can trust. Premium Interiors has consistently delivered excellent work across all our locations. Their expertise in both aluminum and wood solutions makes them our go-to choice for any interior project.",
       project: "Multi-Property Renovation"
     },
@@ -63,7 +64,7 @@ const TestimonialsCarousel = () => {
       role: "Secretary",
       location: "Bihar",
       rating: 5,
-      avatar: "/guddan.jpg",
+      avatar: "https://ik.imagekit.io/ssinc0lob/guddan.jpg",
       text: "Premium Interiors brings my architectural visions to life with precision and artistry. Their technical expertise and creative problem-solving make them an invaluable partner. The quality of their work consistently impresses both me and my clients.",
       project: "Home Renovation and Design"
     }
