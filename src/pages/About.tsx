@@ -1,11 +1,15 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Users, Award, Clock, Target } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const values = [
     {
       icon: Award,
@@ -65,7 +69,7 @@ const About = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="dsat.jpg" 
+                  src="https://ik.imagekit.io/ssinc0lob/dsat.jpg" 
                   alt="Our workshop" 
                   className="rounded-lg shadow-lg"
                 />

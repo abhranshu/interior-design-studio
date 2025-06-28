@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -84,11 +83,16 @@ const Contact = () => {
 
                 {/* Map placeholder */}
                 <div className="mt-8">
-                  <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                    <div className="text-center text-gray-500">
-                      <MapPin className="w-8 h-8 mx-auto mb-2" />
-                      <p>Interactive Map Coming Soon</p>
-                    </div>
+                  <div className="rounded-lg overflow-hidden">
+                    <iframe
+                      title="Location Map"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.1234567890123!2d85.12345678901234!3d25.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c63ddfd7%3A0x2e0c5b3b3b3b3b3b!2sAkash+Interior!5e0!3m2!1sen!2sin!4v1234567890123"
+                      width="100%"
+                      height="400"
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                   </div>
                 </div>
               </div>
